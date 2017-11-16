@@ -7,10 +7,10 @@ We're going to use a package manager -- Miniconda -- to install everything, beca
 
 1. Download miniconda here: https://conda.io/miniconda.html. We want the Python 3.6 installer, for your operating system. 
 
- 1a. If you're on a PC, run the .exe file. 
- 1b. If you're on a Mac, open Terminal. Run `cd Downloads/`, which will get you into the downloads folder. Then run `bash Miniconda3-latest-MacOSX-x86_64.sh` to get Miniconda installed. 
+ * If you're on a PC, run the .exe file. 
+ * If you're on a Mac, open Terminal. Run `cd Downloads/`, which will get you into the downloads folder. Then run `bash Miniconda3-latest-MacOSX-x86_64.sh` to get Miniconda installed. 
   
- 1c. Generally, you can go by the defaults. If it asks you whether you want to add Miniconda3 to your PATH, this is up to you; if you say yes, your system will default to 3.6 instead of 2.7, but this isn't likely to cause any issues because most things support both versions these days. If you say no, you'll just have a bit more work when launching Python in the future. 
+ * Generally, you can go by the defaults. If it asks you whether you want to add Miniconda3 to your PATH, this is up to you; if you say yes, your system will default to 3.6 instead of 2.7, but this isn't likely to cause any issues because most things support both versions these days. If you say no, you'll just have a bit more work when launching Python in the future. 
   
 2. If you're on Mac, restart the terminal; on PC, open your terminal. Then type `conda info` to make sure everything is working. 
 
