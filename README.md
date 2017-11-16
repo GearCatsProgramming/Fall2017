@@ -33,4 +33,8 @@ and run the code. If there aren't any errors, we're good! If there are, time to 
 
 9. Run `conda update spyder` so we get the latest version of spyder. Follow the prompts again. 
 
-10. Run `source activate frc2017env` again to get back into our environment. If you're done with this list and everyone else isn't, go through these tutorials: https://docs.opencv.org/2.4/doc/tutorials/core/table_of_content_core/table_of_content_core.html#table-of-content-core. 
+10. Run `source activate frc2017env` again to get back into our environment. 
+
+
+For the people who are interested - this is the repository with the code my old robotics team used in my senior year. No need to read it, and our code this year probably won't be nearly as complicated, but it's here if you really want to go look. 
+https://github.com/teamresistance/ohmer-2016
