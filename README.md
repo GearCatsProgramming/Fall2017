@@ -7,8 +7,8 @@ We're going to use a package manager -- Miniconda -- to install everything, beca
 
 1. Download miniconda here: https://conda.io/miniconda.html. We want the Python 3.6 installer, for your operating system. 
 
-  1a. If you're on a PC, run the .exe file. 
-  1b. If you're on a Mac, open Terminal. Run `cd Downloads/`, which will get you into the downloads folder. Then run `bash Miniconda3-latest-MacOSX-x86_64.sh` to get Miniconda installed. 
+ 1a. If you're on a PC, run the .exe file. 
+ 1b. If you're on a Mac, open Terminal. Run `cd Downloads/`, which will get you into the downloads folder. Then run `bash Miniconda3-latest-MacOSX-x86_64.sh` to get Miniconda installed. 
   
   1c. Generally, you can go by the defaults. If it asks you whether you want to add Miniconda3 to your PATH, this is up to you; if you say yes, your system will default to 3.6 instead of 2.7, but this isn't likely to cause any issues because most things support both versions these days. If you say no, you'll just have a bit more work when launching Python in the future. 
   
@@ -23,7 +23,8 @@ We're going to use a package manager -- Miniconda -- to install everything, beca
 6. Run `spyder` to open the IDE that comes with Miniconda. In the IDE, type 
 ```import numpy
 import scipy
-import matplotlib```
+import matplotlib
+```
 and run the code. If there aren't any errors, we're good! If there are, time to debug. 
 
 7. Time for OpenCV! Run `conda install -c menpo opencv3`. Again, follow the prompts till it's installed. 
