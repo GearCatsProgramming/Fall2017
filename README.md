@@ -7,10 +7,10 @@ We're going to use a package manager -- Miniconda -- to install everything, beca
 
 1. Download miniconda here: https://conda.io/miniconda.html. We want the Python 3.6 installer, for your operating system. 
 
--1a. If you're on a PC, run the .exe file. 
+ 1a. If you're on a PC, run the .exe file. 
  1b. If you're on a Mac, open Terminal. Run `cd Downloads/`, which will get you into the downloads folder. Then run `bash Miniconda3-latest-MacOSX-x86_64.sh` to get Miniconda installed. 
   
-  1c. Generally, you can go by the defaults. If it asks you whether you want to add Miniconda3 to your PATH, this is up to you; if you say yes, your system will default to 3.6 instead of 2.7, but this isn't likely to cause any issues because most things support both versions these days. If you say no, you'll just have a bit more work when launching Python in the future. 
+ 1c. Generally, you can go by the defaults. If it asks you whether you want to add Miniconda3 to your PATH, this is up to you; if you say yes, your system will default to 3.6 instead of 2.7, but this isn't likely to cause any issues because most things support both versions these days. If you say no, you'll just have a bit more work when launching Python in the future. 
   
 2. If you're on Mac, restart the terminal; on PC, open your terminal. Then type `conda info` to make sure everything is working. 
 
@@ -28,3 +28,9 @@ import matplotlib
 and run the code. If there aren't any errors, we're good! If there are, time to debug. 
 
 7. Time for OpenCV! Run `conda install -c menpo opencv3`. Again, follow the prompts till it's installed. 
+
+8. Run `source deactivate` to leave the conda environment for a bit. 
+
+9. Run `conda update spyder` so we get the latest version of spyder. Follow the prompts again. 
+
+10. Run `source activate frc2017env` again to get back into our environment. If you're done with this list and everyone else isn't, go through these tutorials: https://docs.opencv.org/2.4/doc/tutorials/core/table_of_content_core/table_of_content_core.html#table-of-content-core. 
